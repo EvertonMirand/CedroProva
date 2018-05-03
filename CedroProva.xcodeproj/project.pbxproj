@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3CF566209891A700E622C2 /* TouchIDAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CF565209891A700E622C2 /* TouchIDAuth.swift */; };
+		AC3CF568209891E300E622C2 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CF567209891E300E622C2 /* Alert.swift */; };
+		AC3CF56D2098A7B100E622C2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CF56C2098A7B100E622C2 /* SignUpViewController.swift */; };
+		AC3CF5702098AD5100E622C2 /* RegexValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CF56F2098AD5100E622C2 /* RegexValidator.swift */; };
+		AC3CF5722098BB2000E622C2 /* ValEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CF5712098BB2000E622C2 /* ValEntry.swift */; };
+		AC59FD1A209A179100C112C1 /* LoginInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59FD19209A179100C112C1 /* LoginInfoViewController.swift */; };
+		AC59FD25209A8EBD00C112C1 /* CedroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59FD24209A8EBD00C112C1 /* CedroTests.swift */; };
+		AC5C404A2097BF59007F9550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5C40492097BF59007F9550 /* AppDelegate.swift */; };
+		AC5C404C2097BF59007F9550 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5C404B2097BF59007F9550 /* LoginViewController.swift */; };
+		AC5C404F2097BF59007F9550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5C404D2097BF59007F9550 /* Main.storyboard */; };
+		AC5C40522097BF59007F9550 /* CedroProva.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC5C40502097BF59007F9550 /* CedroProva.xcdatamodeld */; };
+		AC5C40542097BF5B007F9550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5C40532097BF5B007F9550 /* Assets.xcassets */; };
+		AC5C40572097BF5B007F9550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5C40552097BF5B007F9550 /* LaunchScreen.storyboard */; };
+		AC6CF5B22098CCA100B73586 /* UserLoginsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CF5B12098CCA100B73586 /* UserLoginsViewController.swift */; };
+		AC6CF5B520990D0600B73586 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CF5B420990D0600B73586 /* SessionManager.swift */; };
+		AC6CF5B820990DBB00B73586 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CF5B720990DBB00B73586 /* Constants.swift */; };
+		AC6CF5BB20993B5900B73586 /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CF5BA20993B5900B73586 /* LoginTableViewCell.swift */; };
+		AC6CF5BE2099425B00B73586 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CF5BD2099425B00B73586 /* Login.swift */; };
+		AC6CF5C0209957B400B73586 /* SaveUserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CF5BF209957B400B73586 /* SaveUserLoginViewController.swift */; };
+		ACAD44FC2099811B006AD515 /* LoginArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD44FB2099811B006AD515 /* LoginArray.swift */; };
+		DC7069C337EB4EEAFF6899BB /* Pods_CedroProva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC81CD62947DE02759B6AA96 /* Pods_CedroProva.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC59FD27209A8EBD00C112C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC5C403E2097BF59007F9550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC5C40452097BF59007F9550;
+			remoteInfo = CedroProva;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BA2EB656A26C246AFD9A301 /* Pods-CedroProva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CedroProva.release.xcconfig"; path = "Pods/Target Support Files/Pods-CedroProva/Pods-CedroProva.release.xcconfig"; sourceTree = "<group>"; };
+		A31B73E908CABD334E74CD8C /* Pods-CedroProva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CedroProva.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CedroProva/Pods-CedroProva.debug.xcconfig"; sourceTree = "<group>"; };
+		AC3CF565209891A700E622C2 /* TouchIDAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDAuth.swift; sourceTree = "<group>"; };
+		AC3CF567209891E300E622C2 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		AC3CF56C2098A7B100E622C2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AC3CF56F2098AD5100E622C2 /* RegexValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexValidator.swift; sourceTree = "<group>"; };
+		AC3CF5712098BB2000E622C2 /* ValEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValEntry.swift; sourceTree = "<group>"; };
+		AC59FD19209A179100C112C1 /* LoginInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfoViewController.swift; sourceTree = "<group>"; };
+		AC59FD22209A8EBD00C112C1 /* CedroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC59FD24209A8EBD00C112C1 /* CedroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CedroTests.swift; sourceTree = "<group>"; };
+		AC59FD26209A8EBD00C112C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5C40462097BF59007F9550 /* CedroProva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CedroProva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5C40492097BF59007F9550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC5C404B2097BF59007F9550 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AC5C404E2097BF59007F9550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC5C40512097BF59007F9550 /* CedroProva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CedroProva.xcdatamodel; sourceTree = "<group>"; };
+		AC5C40532097BF5B007F9550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC5C40562097BF5B007F9550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC5C40582097BF5B007F9550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6CF5B12098CCA100B73586 /* UserLoginsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginsViewController.swift; sourceTree = "<group>"; };
+		AC6CF5B420990D0600B73586 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		AC6CF5B720990DBB00B73586 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC6CF5BA20993B5900B73586 /* LoginTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewCell.swift; sourceTree = "<group>"; };
+		AC6CF5BD2099425B00B73586 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		AC6CF5BF209957B400B73586 /* SaveUserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveUserLoginViewController.swift; sourceTree = "<group>"; };
+		AC81CD62947DE02759B6AA96 /* Pods_CedroProva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CedroProva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAD44FB2099811B006AD515 /* LoginArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginArray.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC59FD1F209A8EBD00C112C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5C40432097BF59007F9550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7069C337EB4EEAFF6899BB /* Pods_CedroProva.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		475A173324C1F76AEC0944AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC81CD62947DE02759B6AA96 /* Pods_CedroProva.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC3CF56B2098A79000E622C2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC5C404B2097BF59007F9550 /* LoginViewController.swift */,
+				AC3CF56C2098A7B100E622C2 /* SignUpViewController.swift */,
+				AC6CF5B12098CCA100B73586 /* UserLoginsViewController.swift */,
+				AC6CF5BF209957B400B73586 /* SaveUserLoginViewController.swift */,
+				AC59FD19209A179100C112C1 /* LoginInfoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC3CF56E2098AD3C00E622C2 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CF56F2098AD5100E622C2 /* RegexValidator.swift */,
+				AC3CF5712098BB2000E622C2 /* ValEntry.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		AC55875D209B699100E13354 /* Touch */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CF565209891A700E622C2 /* TouchIDAuth.swift */,
+			);
+			path = Touch;
+			sourceTree = "<group>";
+		};
+		AC55875E209B699D00E13354 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CF567209891E300E622C2 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		AC59FD23209A8EBD00C112C1 /* CedroTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC59FD24209A8EBD00C112C1 /* CedroTests.swift */,
+				AC59FD26209A8EBD00C112C1 /* Info.plist */,
+			);
+			path = CedroTests;
+			sourceTree = "<group>";
+		};
+		AC5C403D2097BF59007F9550 = {
+			isa = PBXGroup;
+			children = (
+				AC5C40482097BF59007F9550 /* CedroProva */,
+				AC59FD23209A8EBD00C112C1 /* CedroTests */,
+				AC5C40472097BF59007F9550 /* Products */,
+				B0ABB5A3B43BE010DD064B9C /* Pods */,
+				475A173324C1F76AEC0944AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC5C40472097BF59007F9550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC5C40462097BF59007F9550 /* CedroProva.app */,
+				AC59FD22209A8EBD00C112C1 /* CedroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC5C40482097BF59007F9550 /* CedroProva */ = {
+			isa = PBXGroup;
+			children = (
+				AC55875E209B699D00E13354 /* Alert */,
+				AC55875D209B699100E13354 /* Touch */,
+				AC6CF5BC2099423500B73586 /* Model */,
+				AC6CF5B920993B3600B73586 /* TableViewCell */,
+				AC6CF5B620990D7E00B73586 /* Constants */,
+				AC6CF5B320990CEE00B73586 /* SessionManager */,
+				AC3CF56E2098AD3C00E622C2 /* Validator */,
+				AC3CF56B2098A79000E622C2 /* ViewControllers */,
+				AC5C40492097BF59007F9550 /* AppDelegate.swift */,
+				AC5C404D2097BF59007F9550 /* Main.storyboard */,
+				AC5C40532097BF5B007F9550 /* Assets.xcassets */,
+				AC5C40552097BF5B007F9550 /* LaunchScreen.storyboard */,
+				AC5C40582097BF5B007F9550 /* Info.plist */,
+				AC5C40502097BF59007F9550 /* CedroProva.xcdatamodeld */,
+			);
+			path = CedroProva;
+			sourceTree = "<group>";
+		};
+		AC6CF5B320990CEE00B73586 /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				AC6CF5B420990D0600B73586 /* SessionManager.swift */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+		AC6CF5B620990D7E00B73586 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AC6CF5B720990DBB00B73586 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AC6CF5B920993B3600B73586 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AC6CF5BA20993B5900B73586 /* LoginTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		AC6CF5BC2099423500B73586 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC6CF5BD2099425B00B73586 /* Login.swift */,
+				ACAD44FB2099811B006AD515 /* LoginArray.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0ABB5A3B43BE010DD064B9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A31B73E908CABD334E74CD8C /* Pods-CedroProva.debug.xcconfig */,
+				4BA2EB656A26C246AFD9A301 /* Pods-CedroProva.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC59FD21209A8EBD00C112C1 /* CedroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC59FD29209A8EBD00C112C1 /* Build configuration list for PBXNativeTarget "CedroTests" */;
+			buildPhases = (
+				AC59FD1E209A8EBD00C112C1 /* Sources */,
+				AC59FD1F209A8EBD00C112C1 /* Frameworks */,
+				AC59FD20209A8EBD00C112C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC59FD28209A8EBD00C112C1 /* PBXTargetDependency */,
+			);
+			name = CedroTests;
+			productName = CedroTests;
+			productReference = AC59FD22209A8EBD00C112C1 /* CedroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC5C40452097BF59007F9550 /* CedroProva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5C405B2097BF5B007F9550 /* Build configuration list for PBXNativeTarget "CedroProva" */;
+			buildPhases = (
+				9397888E11E12859AE11A22C /* [CP] Check Pods Manifest.lock */,
+				AC5C40422097BF59007F9550 /* Sources */,
+				AC5C40432097BF59007F9550 /* Frameworks */,
+				AC5C40442097BF59007F9550 /* Resources */,
+				7C2AE0D235BE9D94BD9393D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CedroProva;
+			productName = CedroProva;
+			productReference = AC5C40462097BF59007F9550 /* CedroProva.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC5C403E2097BF59007F9550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Everton Miranda Vitório";
+				TargetAttributes = {
+					AC59FD21209A8EBD00C112C1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AC5C40452097BF59007F9550;
+					};
+					AC5C40452097BF59007F9550 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = AC5C40412097BF59007F9550 /* Build configuration list for PBXProject "CedroProva" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC5C403D2097BF59007F9550;
+			productRefGroup = AC5C40472097BF59007F9550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC5C40452097BF59007F9550 /* CedroProva */,
+				AC59FD21209A8EBD00C112C1 /* CedroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC59FD20209A8EBD00C112C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5C40442097BF59007F9550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5C40572097BF5B007F9550 /* LaunchScreen.storyboard in Resources */,
+				AC5C40542097BF5B007F9550 /* Assets.xcassets in Resources */,
+				AC5C404F2097BF59007F9550 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C2AE0D235BE9D94BD9393D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CedroProva/Pods-CedroProva-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DefaultsKit/DefaultsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TweeTextField/TweeTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DefaultsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TweeTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CedroProva/Pods-CedroProva-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9397888E11E12859AE11A22C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CedroProva-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC59FD1E209A8EBD00C112C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC59FD25209A8EBD00C112C1 /* CedroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5C40422097BF59007F9550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3CF56D2098A7B100E622C2 /* SignUpViewController.swift in Sources */,
+				AC6CF5B820990DBB00B73586 /* Constants.swift in Sources */,
+				AC6CF5BE2099425B00B73586 /* Login.swift in Sources */,
+				AC3CF566209891A700E622C2 /* TouchIDAuth.swift in Sources */,
+				AC5C404C2097BF59007F9550 /* LoginViewController.swift in Sources */,
+				ACAD44FC2099811B006AD515 /* LoginArray.swift in Sources */,
+				AC6CF5B22098CCA100B73586 /* UserLoginsViewController.swift in Sources */,
+				AC5C40522097BF59007F9550 /* CedroProva.xcdatamodeld in Sources */,
+				AC3CF5702098AD5100E622C2 /* RegexValidator.swift in Sources */,
+				AC6CF5C0209957B400B73586 /* SaveUserLoginViewController.swift in Sources */,
+				AC3CF568209891E300E622C2 /* Alert.swift in Sources */,
+				AC3CF5722098BB2000E622C2 /* ValEntry.swift in Sources */,
+				AC59FD1A209A179100C112C1 /* LoginInfoViewController.swift in Sources */,
+				AC6CF5B520990D0600B73586 /* SessionManager.swift in Sources */,
+				AC5C404A2097BF59007F9550 /* AppDelegate.swift in Sources */,
+				AC6CF5BB20993B5900B73586 /* LoginTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC59FD28209A8EBD00C112C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC5C40452097BF59007F9550 /* CedroProva */;
+			targetProxy = AC59FD27209A8EBD00C112C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC5C404D2097BF59007F9550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5C404E2097BF59007F9550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC5C40552097BF5B007F9550 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5C40562097BF5B007F9550 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC59FD2A209A8EBD00C112C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CedroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EMV.CedroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedroProva.app/CedroProva";
+			};
+			name = Debug;
+		};
+		AC59FD2B209A8EBD00C112C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CedroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EMV.CedroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedroProva.app/CedroProva";
+			};
+			name = Release;
+		};
+		AC5C40592097BF5B007F9550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC5C405A2097BF5B007F9550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC5C405C2097BF5B007F9550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31B73E908CABD334E74CD8C /* Pods-CedroProva.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CedroProva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EMV.CedroProva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC5C405D2097BF5B007F9550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA2EB656A26C246AFD9A301 /* Pods-CedroProva.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CedroProva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EMV.CedroProva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC59FD29209A8EBD00C112C1 /* Build configuration list for PBXNativeTarget "CedroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC59FD2A209A8EBD00C112C1 /* Debug */,
+				AC59FD2B209A8EBD00C112C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5C40412097BF59007F9550 /* Build configuration list for PBXProject "CedroProva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5C40592097BF5B007F9550 /* Debug */,
+				AC5C405A2097BF5B007F9550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5C405B2097BF5B007F9550 /* Build configuration list for PBXNativeTarget "CedroProva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5C405C2097BF5B007F9550 /* Debug */,
+				AC5C405D2097BF5B007F9550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC5C40502097BF59007F9550 /* CedroProva.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC5C40512097BF59007F9550 /* CedroProva.xcdatamodel */,
+			);
+			currentVersion = AC5C40512097BF59007F9550 /* CedroProva.xcdatamodel */;
+			path = CedroProva.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC5C403E2097BF59007F9550 /* Project object */;
+}

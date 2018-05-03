@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.7.2)
+  - DefaultsKit (0.0.8)
+  - KeychainSwift (11.0.0)
+  - TweeTextField (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - DefaultsKit
+  - KeychainSwift (~> 11.0)
+  - TweeTextField
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - DefaultsKit
+    - KeychainSwift
+    - TweeTextField
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  DefaultsKit: d4e4271525388e33a17ee6842f2ded78f6892bc7
+  KeychainSwift: bea6bd9f98af7b8d7ca4aa79fe105c00fab532db
+  TweeTextField: e3741c11abd85662165d26d25eb6d31e7b2c4123
+
+PODFILE CHECKSUM: a3e9e9f7478c514dbb9732dbf3838abf1b1d49dc
+
+COCOAPODS: 1.5.0
